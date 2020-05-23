@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/leaderboard_card_view">
+
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/rank_text"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/name_text"
+                android:textSize="22sp"
+                android:singleLine="true"
+                android:layout_width="280dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/rank_text"/>
+
+            <TextView
+                android:id="@+id/score_text"
+                android:textSize="22sp"
+                android:textAlignment="viewEnd"
+                android:singleLine="true"
+                android:layout_width="80dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "622456162698",
+    "firebase_url": "https://pot-holing.firebaseio.com",
+    "project_id": "pot-holing",
+    "storage_bucket": "pot-holing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622456162698:android:cdf0993456d179bfb92073",
+        "android_client_info": {
+          "package_name": "com.honours.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622456162698-tdsaknd165cd3cgsm3t913clteip1jn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.honours.project",
+            "certificate_hash": "8a23fd0d60c41a553dfd10427a694f7b36c3ce03"
+          }
+        },
+        {
+          "client_id": "622456162698-bnq60k2fresc6fcrduvp3ovc0lfinlb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpzjpiClkfn3gmIzcRFJqvkSaJdKPDJoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622456162698-bnq60k2fresc6fcrduvp3ovc0lfinlb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

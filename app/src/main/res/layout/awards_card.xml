@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/leaderboard_card_view">
+
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/award_badge"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/menu_awards"/>
+
+            <TextView
+                android:id="@+id/award_name"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/award_badge"/>
+
+            <TextView
+                android:id="@+id/award_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/award_badge"
+                android:layout_below="@id/award_name"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

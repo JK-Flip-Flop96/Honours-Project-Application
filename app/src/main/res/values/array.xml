@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Pothole</item>
+        <item>Overflowing Bin</item>
+        <item>Streetlight Out</item>
+        <item>Vandalism</item>
+        <item>Fly Tipping</item>
+        <item>Dog Waste</item>
+        <item>Uncollected Bins</item>
+        <item>Parking Offenses</item>
+        <item>Abandoned Vehicles</item>
+        <item>Other</item>
+    </string-array>
+</resources>

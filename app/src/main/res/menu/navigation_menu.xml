@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:id="@+id/navigation_menu">
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:title="@string/menu_map" />
+
+    <item
+        android:id="@+id/nav_leaderboard"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="@string/menu_leaderboard" />
+
+    <group
+        android:id="@+id/nav_group_logged_in"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_awards"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="@string/menu_awards" />
+        <item
+            android:id="@+id/nav_contributions"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_contributions" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app_red_24dp"
+            android:title="@string/menu_sign_out"
+            android:onClick="onSignOutClick"/>
+    </group>
+
+    <group
+        android:id="@+id/nav_group_logged_out"
+        android:visible="true">
+
+        <item
+            android:id="@+id/nav_log_in"
+            android:title="@string/menu_sign_in"
+            android:icon="@drawable/ic_exit_to_app_red_24dp"
+            android:onClick="onSignInClick"/>
+    </group>
+
+
+</menu>

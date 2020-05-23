@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_map">
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.honours.project.MapsFragment"
+        android:label="@string/title_activity_maps"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_MapFragment_to_LeaderboardFragment"
+            app:destination="@id/nav_leaderboard" />
+        <action
+            android:id="@+id/action_MapFragment_to_ContributionsFragment"
+            app:destination="@id/nav_contributions" />
+        <action
+            android:id="@+id/action_MapFragment_to_AwardsFragment"
+            app:destination="@id/nav_awards" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_leaderboard"
+        android:name="com.honours.project.LeaderboardFragment"
+        android:label="@string/menu_leaderboard"
+        tools:layout="@layout/fragment_leaderboard"/>
+
+    <fragment
+        android:id="@+id/nav_contributions"
+        android:name="com.honours.project.ContributionsFragment"
+        android:label="@string/menu_contributions"
+        tools:layout="@layout/fragment_contributions"/>
+
+    <fragment
+        android:id="@+id/nav_awards"
+        android:name="com.honours.project.AwardFragment"
+        android:label="@string/menu_awards"
+        tools:layout="@layout/fragment_award"/>
+
+</navigation>
